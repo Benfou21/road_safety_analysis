@@ -27,19 +27,33 @@ This project analyzes road accident data in France (2023) to explore patterns, c
 ## Repository Structure
 
 ROAD_SAFETY_ANALYSIS/
+
 ├── data/
+
 │ ├── raw/ # Original CSV files from traffic records
+
 │ └── processed/ # Cleaned CSV outputs
+
 ├── notebooks/ # Jupyter notebooks
+
 │ ├── 1_preprocessing.ipynb # Data loading & cleaning steps
+
 │ ├── 2_visualization.ipynb # Exploratory plots & charts
+
 │ ├── 3_clustering.ipynb # K-Means clustering experiments
+
 │ └── 4_predict_death.ipynb # Mortality prediction pipeline
+
 ├── src/ # Python modules
+
 │ ├── preprocessing.py # Cleaning functions & categorization
+
 │ ├── features.py # Clustering preparation & plotting
+
 │ └── utils.py # Helper utilities
+
 ├── requirements.txt # Python package dependencies
+
 └── README.md # This file: overview and instructions
 
 
