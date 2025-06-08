@@ -3,6 +3,10 @@
 ## Project Overview
 This project analyzes road accident data in France (2023) to explore patterns, cluster similar accidents, and predict mortality risk for involved users. Leveraging data from French national traffic records, the pipeline includes data cleaning, exploratory visualization, unsupervised clustering, and supervised learning for mortality prediction.
 
+### Geographical repartition of 4 clusters (results of 3_clustering.ipynb)
+![Clustering example](imgs\geo_cluster.png)
+
+
 ## Key Features & Methods
 - **Data Preprocessing**:  
   - Load raw CSV datasets: `caract`, `lieux`, `vehicules`, `usagers`.  
