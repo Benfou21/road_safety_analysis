@@ -64,12 +64,12 @@ ROAD_SAFETY_ANALYSIS/
    cd road_safety_analysis
 
 2. **Create a virtual environment**
-  ```bash
+   ```bash
    python3 -m venv venv
    source venv/bin/activate
 
 3. **Install dependencies**
-  ```bash
+   ```bash
    pip install -r requirements.txt
 
 
